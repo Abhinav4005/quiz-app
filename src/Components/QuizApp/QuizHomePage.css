@@ -1,0 +1,39 @@
+.home-wrapper{
+    width:100%;
+    height:100%;
+}
+
+.h-container{
+    width:100%;
+    height:30%;
+    /* padding:25%; */
+    font-size:24px;
+    border-radius: 10px;
+    background-color: #87CEFA;
+    display: flex;
+    flex-direction: column-reverse;
+    gap:15px;
+    align-items: center;
+    color:white;
+    background: transparent;
+}
+
+.h-container>a{
+    text-decoration: none;
+    color:white;
+    background-color:black;
+    padding:10px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .h-container {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .h-container {
+        font-size: 28px;
+    }
+}
